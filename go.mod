@@ -1,8 +1,9 @@
 module github.com/nicolasacchi/ga-cli
 
-go 1.25.7
+go 1.26.0
 
 require (
+	github.com/nicolasacchi/clicore v0.1.4
 	github.com/spf13/cobra v1.10.2
 	google.golang.org/api v0.267.0
 )
