@@ -32,14 +32,14 @@ var propertiesGetCmd = &cobra.Command{
 		}
 
 		result := map[string]any{
-			"name":         prop.Name,
-			"displayName":  prop.DisplayName,
-			"propertyType": prop.PropertyType,
-			"timeZone":     prop.TimeZone,
-			"currencyCode": prop.CurrencyCode,
+			"name":             prop.Name,
+			"displayName":      prop.DisplayName,
+			"propertyType":     prop.PropertyType,
+			"timeZone":         prop.TimeZone,
+			"currencyCode":     prop.CurrencyCode,
 			"industryCategory": prop.IndustryCategory,
-			"createTime":   prop.CreateTime,
-			"updateTime":   prop.UpdateTime,
+			"createTime":       prop.CreateTime,
+			"updateTime":       prop.UpdateTime,
 		}
 		if prop.Parent != "" {
 			result["parent"] = prop.Parent
