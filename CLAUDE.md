@@ -92,7 +92,7 @@ go install ./cmd/ga-cli         # Direct Go install
 make test                       # Run tests
 ```
 
-Requires Go 1.25+.
+Requires Go 1.27+.
 
 ## Project Structure
 
